@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan Programming UNPAS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="top-bar"></div>
+    <div class="container">
+        <a href="https://twitter.com/AzizKunnn" class="twitter" target="_blank">AzizKunnn</a>
+        <div class="header">
+            <h1>My Website</h1>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+        </div>
+        <div class="hero"></div>
+        <div class="content cf">
+            <div class="main">
+                <h2>Judul Artikel</h2>
+                <p class="penulis">ditulis oleh <a href="#">azizimastara</a>, 29 Desember 2020</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ipsam 
+            voluptatibus sunt alias deserunt natus dolorem 
+            ducimus odit provident voluptates quo harum at necessitatibus suscipit, consequatur deleniti modi, iure voluptatem?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quae dolor amet saepe provident dolorum? Perspiciatis 
+            totam officia illo. Odio dolorem, deleniti reprehenderit nostrum esse ullam minus veniam rem possimus maiores illo. Saepe culpa corporis blanditiis dolor sint. Illo id quia blanditiis ratione quos ex nostrum aspernatur! Consequuntur pariatur illum corrupti dicta adipisci quam. 
+            Eum delectus incidunt eos consequuntur vel atque tempora, nostrum consectetur aliquam repellendus harum, 
+            nesciunt inventore voluptates sed quibusdam distinctio. Ab accusantium aspernatur, commodi ut inventore asperiores.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis nulla in vel 
+            excepturi placeat ullam, culpa eaque officia nisi rem fugit perferendis optio, labore provident at esse earum neque consequuntur. Quaerat saepe quas vel corrupti odit dolores, reiciendis sed consectetur minima porro magnam eum consequuntur, exercitationem et commodi. Dolorem placeat eum quos deleniti, nam iure nostrum veniam, illum earum, dicta sed? Explicabo labore porro quae blanditiis nobis? Deleniti porro ex molestias ducimus expedita eius labore nisi commodi cupiditate, atque incidunt blanditiis, 
+            numquam maiores illum eos pariatur laudantium ipsum maxime. Excepturi, ipsum consequatur. 
+            Deleniti, perferendis doloremque! Suscipit cupiditate illo ut.</p>
+            </div>
+            <div class="sidebar">
+                <h3>Tentang Penulis</h3>
+                <img src="assets/img/profilee.png" alt="profile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur debitis unde sit nemo, 
+                    doloremque quos consequuntur. Tenetur repudiandae consequatur sunt consectetur fugit 
+                    assumenda alias eveniet explicabo est sapiente, placeat repellendus?</p>
+            </div>
+           
+        </div>
+        <div class="footer">
+            <p class="copy">Copyright 2020. azizimastara</p>
+        </div>
+    </div>
+</body>
+</html>
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Style */
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(assets/img/backgrounddd.png);
+}
+.top-bar{
+    background-color: lightskyblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    position: fixed;
+    z-index: 999;
+    border-bottom: 3px solid salmon;
+
+}
+.container{
+    background-color: #fff;
+    width: 960px;
+    margin: 80px auto;
+    position: relative;
+}
+.twitter{
+    width: 200px;
+    height: 200px;
+    background-image: url(assets/img/Twitter\ Ribbon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -22px;
+    right: -27px;
+}
+.header{
+    padding: 20px;
+}
+.container li{
+    display: inline-block;
+}
+.container li a{
+    text-decoration: none;
+    color: salmon;
+}
+.container li a:hover{
+    color: coral;
+    background-color: black;
+}
+.hero{
+    background-image: url(assets/img/heroo.jpg);
+    background-size: cover;
+    height: 280px;
+    background-position: 0 -80px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid greenyellow;
+    margin-top: -10px;
+}
+.main{
+    padding: 20px;
+    font-size: 15px;
+    margin-top: -25px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+.main h2{
+    font-size: 25px;
+}
+.main a{
+    text-decoration: none;
+    color: blue;
+}
+/* Sidebar */
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+    margin-top: -25px;
+}
+.sidebar h3{
+    font-weight: bold;
+    color: #666;
+}
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+.sidebar p{
+    font: 12px/18px arial;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+}
+.copy{
+    padding: 10px;
+    color: #eaeaea;
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
